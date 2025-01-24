@@ -1,0 +1,5 @@
+Hello World
+This is a test file
+Pattern1 is here
+Pattern2 is here
+Another line with Pattern1

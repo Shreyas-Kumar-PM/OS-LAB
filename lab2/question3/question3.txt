@@ -1,0 +1,8 @@
+(1). grep -c ':ICT:' studentInformation.txt
+
+(2). sed 's/:IT:/Information Technology:/g' studentInformation.txt > ITStudents.txt
+
+(3). awk -F':' '$1 == "1234" {avg = ($6 + $7 + $8) / 3; print "Average Marks for RegistrationNo 1234: " avg}' studentInformation.txt
+
+(4). awk 'NR==1 {print toupper($0)} NR>1 {print $0}' studentInformation.txt
+

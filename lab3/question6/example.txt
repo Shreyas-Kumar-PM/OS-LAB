@@ -1,0 +1,5 @@
+Example: this is a sentence starting with ex.
+Here is another line.
+
+Example: This is another example.
+second ex: This should not be replaced.

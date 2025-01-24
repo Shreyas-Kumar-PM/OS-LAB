@@ -1,0 +1,23 @@
+(1). cat > newfile.txt
+	(a). cat > newfile.txt
+	(b). cat >> existingfile.txt
+	(c). cat filename.txt
+
+(2). (a). head -n 5 filename.txt
+	  head -c 20 filename.txt
+     (B). tail -n 5 filename.txt
+	  tail -c 20 filename.txt
+     (C). cp -n source.txt destination.txt
+	  cp -i source.txt destination.txt
+	  cp -f source.txt destination.txt
+     (D). mv -f file1.txt destination/
+	  mv -i file1.txt destination/
+     (E). rm -r directory_name
+	  rm -i filename.txt
+	  rm -f filename.txt
+     (F). rmdir -r directory_name
+	  rmdir -f directory_name
+     (G). find . -name "*.txt"
+	  find . -type f -name "*.txt"
+	  find . -type d -name "dir*"
+ 

@@ -1,0 +1,6 @@
+(1). grep -l 'MIT' *
+
+(2). grep -l 'MIT' * | while read file; do
+    echo "Processing file: $file"
+    grep 'MIT' "$file" | sed 's/MIT/Manipal Institute of Technology/g'
+done

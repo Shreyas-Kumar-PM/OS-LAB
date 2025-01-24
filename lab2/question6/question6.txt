@@ -1,0 +1,5 @@
+(1). # Run `wc` in the background 5 times
+for i in {1..5}; do wc sample.txt & done
+
+# Kill all `wc` processes
+pkill wc

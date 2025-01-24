@@ -1,0 +1,10 @@
+(1). grep -E '^..$' filename
+
+(2). grep -E '^[A-Z]' filename
+
+(3). grep -E '\.$' filename
+
+(4). grep -E '[[:space:]]+' filename
+
+(5). grep -E '[0-9]' filename > outputfile.txt
+
